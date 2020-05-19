@@ -1,1 +1,1 @@
-npm install protobufjs opn express
+npm install opn express

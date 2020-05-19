@@ -1,7 +1,6 @@
 const fs = require('fs');
 const opn = require('opn');
 const express = require('express');
-const protobuf = require("protobufjs");
 
 const configJson = JSON.parse(fs.readFileSync('config.json'));
 
