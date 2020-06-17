@@ -1,0 +1,66 @@
+{    
+    "Language":"语言",
+    "space":"",
+
+    "Pull to refresh":"下拉刷新",
+    "Refreshing":"刷新",
+    
+    "Setting":"设定",
+    "Upgrade System":"更新系统",
+    "General":"一般",
+
+    
+    "Feed":"报价",
+    "FeedConfig":"设定",
+    "Edit":"编辑",
+    "Done":"完成",
+    "Current Settings":"目前设定",
+    "Editing":"编辑中",
+
+    "Parameters":"参数",
+    "Name":"名称",
+    "File":"文件",
+    "Server":"服务器",
+    "Login":"登录名",
+    "Password":"密码",
+    "Keywords":"关键词",
+    "Enable":"启用",
+    "Mode":"模式",
+    "Timeout":"超时",
+    "Reconnect Timeout":"重连超时",
+    "Sleep Timeout":"休眠超时",
+    "Sleep Attempts":"休眠重试",
+    "News Language":"新闻语言",
+    
+    "Plugin":"插件",
+    "Version":"版本",
+    "Copyright":"版权",
+    "Filename":"档案名称",
+    "Enabled":"启用",
+    "Configurable":"可修改",
+    "ManagerAccess":"可存取",
+    
+    "Dealer":"批单",
+    "Select a profile":"选择一组参数",
+    "Disabled":"关闭",
+    "Enabled":"开启",
+    "s":"秒",
+    "Apply Now":"马上生效",
+    "Current":"目前",
+    "Disable":"关闭",
+    
+    "Symbol":"交易品种",
+    "TradeMode":"交易模式",
+    "Description":"说明",
+    "Currency":"货币",
+    "MarginCurrency":"保证金货币",
+    "Digits":"小数位",
+
+    "NoTrade":"停止",
+    "CloseOnly":"仅平仓",
+    "FullAccess":"可交易",
+    
+    "":"",
+    "":"",
+    "":""
+}

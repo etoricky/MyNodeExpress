@@ -1,1 +1,27 @@
-hello
+<html lang="{{ lang }}" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>AngularJS Translation</title>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.18.1/angular-translate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.18.1/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+ 
+  <body ng-controller="Ctrl">
+    <h1>AngularJS Translation</h1>
+    <pre ng-bind="lang"></pre>
+    <pre ng-bind="message"></pre>
+
+    <div>
+      <button ng-click="changeLanguage()">{{'button' | translate | uppercase}}</button>
+    </div>
+
+    <h2>{{ 'Language' | translate}}</h2>          
+    <p>{{'foo' | translate}}</p>
+    <pre ng-bind="'foo' | translate"></pre>
+
+
+  </body>
+</html>

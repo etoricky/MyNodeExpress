@@ -1,0 +1,70 @@
+{    
+    "Language":"語言",
+    "space":"",
+
+    "Pull to refresh":"下拉刷新",
+    "Refreshing":"刷新",
+    
+    "Setting":"設定",
+    "Upgrade System":"更新系統",
+    "General":"一般",
+
+    
+    "Feed":"報價",
+    "FeedConfig":"設定",
+    "Edit":"編輯",
+    "Done":"完成",
+    "Current Settings":"目前設定",
+    "Editing":"編輯中",
+
+    "Parameters":"參數",
+    "Name":"名稱",
+    "File":"文件",
+    "Server":"服務器",
+    "Login":"登錄名",
+    "Password":"密碼",
+    "Keywords":"關鍵詞",
+    "Enable":"啟用",
+    "Mode":"模式",
+    "Timeout":"超時",
+    "Reconnect Timeout":"重連超時",
+    "Sleep Timeout":"休眠超時",
+    "Sleep Attempts":"休眠重試",
+    "News Language":"新聞語言",
+    
+    "Plugin":"插件",
+    "Version":"版本",
+    "Copyright":"版權",
+    "Filename":"檔案名稱",
+    "Enabled":"啟用",
+    "Configurable":"可修改",
+    "ManagerAccess":"可存取",
+    
+    "Dealer":"批單",
+    "Select a profile":"選擇一組參數",
+    "Disabled":"關閉",
+    "Enabled":"開啟",
+    "s":"秒",
+    "Apply Now":"馬上生效",
+    "Current":"目前",
+    "Disable":"關閉",
+    
+    "Symbol":"交易品種",
+    "TradeMode":"交易模式",
+    "Description":"説明",
+    "Currency":"貨幣",
+    "MarginCurrency":"保證金貨幣",
+    "Digits":"小數位",
+
+    "NoTrade":"停止",
+    "CloseOnly":"僅平倉",
+    "FullAccess":"可交易",
+
+    "Mode":"模式",
+    "usualMode":"常用模式",
+    "advanceMode":"進階模式",
+    
+    "":"",
+    "":"",
+    "":""
+}
