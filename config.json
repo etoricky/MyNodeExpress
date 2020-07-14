@@ -1,7 +1,7 @@
 {
-  "Web": [
+  "web": [
     {
-      "name": "Web",
+      "name": "Web01",
       "host": "0.0.0.0",
       "port": 8089,
       "login": "",

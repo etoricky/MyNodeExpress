@@ -5,7 +5,7 @@ const express = require('express');
 const configJson = JSON.parse(fs.readFileSync('config.json'));
 
 const main = async function() {
-    const web = configJson['Web'][0];
+    const web = configJson['web'][0];
     opn('http://' + (web.host==='0.0.0.0' ? '127.0.0.1' : web.host) + ':' + web.port);    
     
     const app = express();
