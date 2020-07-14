@@ -23,7 +23,7 @@ const main = async function() {
     app.use(express.json()); // Parse JSON bodies (as sent by API clients)
     app.set('json spaces', 2);
     
-    app.use(session({secret: "Shh, its a secret!"}));
+    app.use(session({secret: "dr56tfgy7"}));
     
     const server = app.listen(web.port, web.host, ()=>{
         const address = server.address();
