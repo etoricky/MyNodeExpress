@@ -3,8 +3,6 @@ const opn = require('opn');
 const express = require('express');
 const session = require('express-session');
 
-const configJson = JSON.parse(fs.readFileSync('config.json'));
-
 function checkAuth(req, res, next) {
   if (!req.session.username) {
     res.send('You are not authorized to view this page');
@@ -14,11 +12,14 @@ function checkAuth(req, res, next) {
 }
 
 const main = async function() {
-    const web = configJson['web'][0];
+
+    const config = JSON.parse(fs.readFileSync('config.json'));
+
+    const web = config['web'][0];
     opn('http://' + (web.host==='0.0.0.0' ? '127.0.0.1' : web.host) + ':' + web.port);    
     
     const app = express();
-    app.use(express.static(configJson.static));
+    app.use(express.static(config.static));
     app.use(express.urlencoded({extended: true})); // Parse URL-encoded bodies (as sent by HTML forms)
     app.use(express.json()); // Parse JSON bodies (as sent by API clients)
     app.set('json spaces', 2);
