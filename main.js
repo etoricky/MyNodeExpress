@@ -23,6 +23,24 @@ const main = async function() {
     app.use(express.urlencoded({extended: true})); // Parse URL-encoded bodies (as sent by HTML forms)
     app.use(express.json()); // Parse JSON bodies (as sent by API clients)
     app.set('json spaces', 2);
+    if (config.cors) {
+        let whitelist = config.origins||[];
+        if (whitelist.length>0) {
+          whitelist = [localhostOrigin].concat(whitelist);
+        }
+        console.log('whitelist', whitelist);
+        app.use(cors({
+            origin: function(origin, callback){
+                if(!origin) return callback(null, true);
+                if(whitelist.length>0 && whitelist.indexOf(origin) === -1){
+                    const msg = 'origin not allowed ' + origin;
+                    return callback(new Error(msg), false);
+                }
+                return callback(null, true);
+            }
+            ,credentials:true})
+        );
+    }
     
     app.use(session({secret: "dr56tfgy7"}));
     
